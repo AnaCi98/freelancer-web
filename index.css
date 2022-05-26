@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700;800&display=swap');
+
+/* main section */
+.headerLinks {
+    background-color: #2c3e50;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    max-height: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pageLogo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    color: aliceblue;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    color: aliceblue;
+    margin-right: 2vh;
+    align-items: baseline;
+    padding: 1vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    height: auto;
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+.mainSection {
+    background-color: #18bc9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileImage {
+    width: 15%;
+    margin-top: 5%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vh;
+    color: aliceblue;
+}
+
+.mainParagraph {
+    font-family: 'Montserrat', sans-serif;
+    justify-self: center;
+    font-size: 2vh;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+
+.assets{
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 22% 22% 22%;
+grid-row-gap: 6%;
+grid-column-gap: 2%;
+}
+.assets img{
+    width: 100%;
+}
+.portfolioSection{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+}
+
+
+
+.aboutSection {
+    background-color: #18bc9c;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    
+
+}
+.title {
+font-size: 30px;
+color:white;
+text-align:center;
+jus
+
+ 
+}
+.p1{
+    font-size:16px;
+    color:white;
+}
+.download{
+    width: 20%;
+    height: 50%;
+    color: white;
+    border-color: white;
+background-color: transparent;
+font-size: small;
+
+
+}
